@@ -26,7 +26,9 @@ import abc
 # * strides: This is the multiplier, for each block, which multiply height and width of the image. (2,2,8) = 2*2*8
 # * apply_postprocess_conv: this is an optional convolutional layer with strides=1, filters=n_classes and kernel_size=3, that will be positioned as the final layer
 #
-#default arguments builds original FCN_8
+
+
+#this class summarize all classes below, which are deprecated. If you want to understand a specific model, however, i suggest to watch the deprecated models.
 class FCN_8():
     
     def __init__(self,
